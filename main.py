@@ -126,9 +126,9 @@ async def create_excel_with_ids_and_text(
 
 
 async def main():
-    api_id = 23128708
-    api_hash = "ee3dfa7067eb520a05bfc749083f9ab0"
-    phone_number = "+79130028603"
+    api_id = 123
+    api_hash = "123"
+    phone_number = "+711111111"
     chat_entity = "prodajadomov_mirzo_ulugbek"
 
     async with TelegramClient("s", api_id, api_hash) as client:
